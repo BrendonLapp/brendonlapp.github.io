@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: auto;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+}
+
+/*Home page banner and name stylings*/
+.homepagebanner {
+	background-color: black;
+}
+
+.homepagebanner img {
+	width: 100%;
+	height: 1000px;
+}
+
+.namebox {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	width: 30%;
+}
+
+.namebox h2:first-child {
+    color: white;
+    font-weight: bold;
+	font-size: 3rem;
+	text-shadow: 3px 1px 0px #000;
+}
+
+.namebox h2:last-child {
+	padding-left: 10%;
+    color: white;
+    font-weight: bold;
+	font-size: 2rem;
+	visibility: hidden;
+}
+
+/*Start of header stylings*/
+header {
+	width: 100%;
+	height: 70px;
+	background-color: black;
+}
+
+.logobar {
+	width: 50%;
+	float: left;
+    font-size: 2rem;
+}
+
+.logobar a {
+	color: white;
+}
+
+.logobar a h1:first-child {
+	position: absolute;
+    top: 1%;
+    left: 5%;
+}
+
+.logobar a h1:last-child {
+	position: absolute;
+    top: 3%;
+    left: 5.4%;
+}
+
+.navbar {
+	width: 50%;
+	float: right;
+}
+
+.navbar h3 a {
+	float: left;
+	color: white;
+	text-decoration: none;
+    height: 70px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar h3 a:hover {
+	background-color: white;
+	color: black;
+}
+
+#mobilebar {
+	visibility: hidden;
+}
+
+/*footer stylings*/
+footer {
+	height: 100px;
+	width: 100%;
+	color: white;
+	background-color: black;
+}
+
+footer .container {
+	width: 40%;
+	float: right;
+}
+
+.linkbox {
+	float: left;
+	width: 35%;
+}
+
+.linkbox a {
+	text-decoration: none;
+	color: white;
+}
+
+.linkbox a:hover {
+	color: white;
+}
+
+.linkbox .fab {
+	font-size: 4rem;
+	padding: 5% 5% 0% 5%;
+}
+
+.contactbox {
+	float: left;
+	padding: 3% 5% 5% 5%;
+	width: 25%;
+}
+
+.contactbox h4:first-child {
+	font-size: 1.4rem;
+}
+
+/*start of media queries*/
+@media only screen and (max-width: 1290px) {
+	footer .container {
+		width: 50%;
+	}
+
+	.namebox {
+		width: 50%;
+		left: 35%;
+	}
+
+	.namebox h2:last-child {
+		padding-left: 0%;
+	}
+
+	.linkbox .fab {
+		font-size: 3rem;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	.namebox {
+		width: 75%;
+		left: 25%;
+	}
+
+	footer .container {
+		width: 75%;
+	}
+
+	footer .linkbox {
+		width: 40%;
+	}
+
+	footer .contactbox {
+		padding: 3% 0% 0% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.namebox {
+		left: 20%;
+	}
+
+	footer .container {
+		float: none;
+		position: absolute;
+		left: 20%;		
+	}
+
+	.navbar {
+		visibility: hidden;
+		float: none;
+	}
+
+	#mobilebar {
+		visibility: visible;
+		color: white;
+		float: right;
+	}
+
+	#mobilebar .hideme {
+		font-size: 3rem;
+		position: absolute;
+		right: 10%;
+		top: 1.5%;
+		color: white;
+		text-decoration: none;
+	}
+
+	#mobilebar div {
+		display: none;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		height: 150px;
+		width: 100%;
+		background-color: black;
+		position: absolute;
+		left: 0%;
+		top: 8%;
+	}
+
+	#mobilebar div h3 a {
+		text-decoration: none;
+		color: white;
+		font-size: 1.5rem;
+	}
+
+	#mobilebar div h3 a:hover {
+		background-color: white;
+		color: black;
+		width: 100%;
+	}
+}
