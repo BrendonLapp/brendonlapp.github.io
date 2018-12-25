@@ -140,6 +140,31 @@ footer .container {
 	font-size: 1.4rem;
 }
 
+/*About stylings*/
+.aboutmain {
+	width: 80%;
+	padding: 3% 0 20% 20%;
+	height: 650px;
+}
+
+.texthalf {
+	width: 50%;
+	float: left;
+}
+
+.imagehalf {
+	width: 50%;
+	float: left;
+}
+
+.imagehalf img {
+	width: 50%;
+}
+
+.texthalf p {
+	width: 90%;
+}
+
 /*start of media queries*/
 @media only screen and (max-width: 1290px) {
 	footer .container {
@@ -177,6 +202,29 @@ footer .container {
 	footer .contactbox {
 		padding: 3% 0% 0% 0%;
 	}
+
+
+	.aboutmain {
+		width: 100%;
+		padding: 2% 5% 5% 5%;
+		height: 800px;
+	}
+
+	.texthalf {
+		width: 100%;
+		float: none;
+	}
+
+	.imagehalf {
+		float: none;
+	}
+
+	.imagehalf img {
+		position: absolute;
+		left: 25%;
+		padding-top: 3%;
+	}
+	
 }
 
 @media only screen and (max-width: 480px) {
