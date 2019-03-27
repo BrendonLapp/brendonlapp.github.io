@@ -229,14 +229,6 @@ h4 {
 	color: #ffffff;
 }
 
-input:required:invalid {
-	box-shadow: 0px 1px 4px #ff0015;
-}
-
-input:required:valid {
-	box-shadow: 0px 1px 4px #16a004;
-}
-
 @media only screen and (max-width: 1750px) {
 	footer .container {
 		width: 50%;
