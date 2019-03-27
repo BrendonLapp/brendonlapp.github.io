@@ -109,7 +109,7 @@ header {
 
 /*footer stylings*/
 footer {
-	height: 100px;
+	height: 50px;
 	width: 100%;
 	color: white;
 	background-color: black;
@@ -118,14 +118,14 @@ footer {
 }
 
 footer .container {
-	width: 25%;
+	width: 20%;
     float: right;
     padding-top: 0.5%;
 }
 
 .linkbox {
 	float: left;
-	width: 35%;
+	width: 25%;
 }
 
 .linkbox a {
@@ -138,14 +138,12 @@ footer .container {
 }
 
 .linkbox .fab {
-	font-size: 4rem;
+	font-size: 1.7rem;
 	padding: 5% 5% 0% 5%;
 }
 
 .contactbox {
-	float: left;
-	padding: 3% 5% 5% 5%;
-	width: 25%;
+	padding: 3% 5% 0 0;
 }
 
 .contactbox h4:first-child {
@@ -236,15 +234,12 @@ h4 {
 
 @media only screen and (max-width: 1750px) {
 	footer .container {
-		width: 50%;
+		width: 30%;
 	}
 }
 
 /*start of media queries*/
 @media only screen and (max-width: 1290px) {
-	footer .container {
-		width: 50%;
-	}
 
 	.namebox {
 		width: 50%;
@@ -253,10 +248,6 @@ h4 {
 
 	.namebox h2:last-child {
 		padding-left: 0%;
-	}
-
-	.linkbox .fab {
-		font-size: 3rem;
 	}
 
 	.formbox {
@@ -273,6 +264,10 @@ h4 {
 	.formbox {
 		width: 50%;
 		left: 25%;
+	}
+
+	footer .container {
+		width: 50%;
 	}
 }
 
