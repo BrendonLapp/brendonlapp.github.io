@@ -4,17 +4,20 @@
 }
 
 html {
-	height: auto;
+	height: 100%;
 }
 
 body {
 	font-family: 'Raleway', sans-serif;
 	width: 100%;
+	height: 100%;
+    overflow: hidden;
 }
 
 /*Home page banner and name stylings*/
 .homepagebanner {
 	background-color: black;
+	height: 100%;
 }
 
 .homepagebanner img {
