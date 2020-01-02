@@ -1,0 +1,1 @@
+onclick(prompt("clicked"));
