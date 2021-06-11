@@ -1,3 +1,4 @@
+import SocialLinks from '../shared/social-link';
 import NavItem from './nav-item';
 
 const Navbar = () => {
@@ -25,6 +26,7 @@ const Navbar = () => {
             <NavItem link={'/About'} name={'About'} />
           </ul>
         </div>
+        <SocialLinks />
       </nav>
     </>
   );
