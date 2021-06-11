@@ -20,7 +20,9 @@ const Navbar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <NavItem link={'/index'} name={'Home'} />
+            <NavItem link={'/'} name={'Home'} />
+            <NavItem link={'/Portfolio'} name={'Portfolio'} />
+            <NavItem link={'/About'} name={'About'} />
           </ul>
         </div>
       </nav>

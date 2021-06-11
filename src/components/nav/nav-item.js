@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
+
 const NavItem = ({ link, name }) => {
   return (
     <li class="nav-item">
-      <a class="nav-link active" href={link}>
+      <Link className="nav-link active" to={link}>
         {name}
-      </a>
+      </Link>
     </li>
   );
 };

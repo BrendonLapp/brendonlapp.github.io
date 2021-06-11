@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
     <header class="masthead">
@@ -9,9 +11,9 @@ const Home = () => {
           </div>
           <div class="col-lg-8 align-self-baseline">
             <p class="text-white mb-5">Software Developer</p>
-            <a class="btn btn-outline-info" href="#about">
+            <Link className="btn btn-outline-info" to="/portfolio">
               View Portfolio
-            </a>
+            </Link>
           </div>
         </div>
       </div>
