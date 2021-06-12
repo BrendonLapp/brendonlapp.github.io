@@ -4,8 +4,6 @@ import Card from '../components/portfolio/card';
 const Portfolio = ({ name }) => {
   useEffect(() => {
     console.log('component loaded');
-    const data = getPortfolio;
-    console.log(data);
   }, []);
   return (
     <div className="album py-5 bg-light">
