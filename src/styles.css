@@ -42,3 +42,9 @@ header.masthead .h1 {
     font-size: 3.5rem;
   }
 }
+
+.custom-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
