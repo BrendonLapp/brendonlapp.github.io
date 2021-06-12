@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import Card from '../components/portfolio/card';
-import { getPortfolio } from '../providers/firebase-provider';
 
 const Portfolio = ({ name }) => {
   useEffect(() => {
