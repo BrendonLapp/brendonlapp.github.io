@@ -1,7 +1,7 @@
 const SuccessButton = ({ message }) => {
   return (
     <>
-      <button type="button" class="btn btn-outline-info">
+      <button type="button" className="btn btn-outline-info">
         {message}
       </button>
     </>

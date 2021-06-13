@@ -3,12 +3,12 @@ import NavItem from './nav-item';
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a className="navbar-brand" href="#">
           Brendon Lapp
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -16,10 +16,10 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
             <NavItem link={'/'} name={'Home'} />
             <NavItem link={'/Portfolio'} name={'Portfolio'} />
             <NavItem link={'/About'} name={'About'} />
