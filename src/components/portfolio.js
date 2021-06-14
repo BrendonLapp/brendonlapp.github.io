@@ -18,20 +18,14 @@ const Portfolio = () => {
       console.log('error', error);
     }
   }, []);
-  console.log(data);
   return (
     <div className="album py-5 bg-light">
-      <div className="container">
+      <div className="container containder-extend">
         <div className="row">
           {data &&
             data.length > 0 &&
             data.map((item) => (
-              <Card
-                key={item.Name}
-                name={item.name}
-                description={item.Description}
-                images={item.Images}
-              />
+              <Card key={item.Name} name={item.Name} images={item.Images} />
             ))}
         </div>
       </div>

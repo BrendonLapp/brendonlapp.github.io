@@ -1,18 +1,13 @@
-import { useEffect } from 'react';
+import ImageCarousel from './image-carousel';
 
-const Card = ({ images, description, name }) => {
+const Card = ({ images, name }) => {
   return (
     <div className="col-md-4">
       <div className="card mb-4 shadow-sm">
         <a href="#" className="cardHover">
-          {/* <img
-            className="card-img-top"
-            src={item.Images.Image1}
-            alt="Card cap"
-          /> */}
+          <ImageCarousel images={images} />
           <div className="card-body">
-            <p className="card-title">{name}</p>
-            <p className="card-text">{description}</p>
+            <p className="card-text">{name}</p>
           </div>
         </a>
       </div>
