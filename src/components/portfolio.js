@@ -17,10 +17,10 @@ const Portfolio = () => {
     } catch (error) {
       console.log('error', error);
     }
-  }, []);
+  }, [data]);
   return (
     <div className="album py-5 bg-light">
-      <div className="container containder-extend">
+      <div className="container" style={{ paddingTop: '2%' }}>
         <div className="row">
           {data &&
             data.length > 0 &&

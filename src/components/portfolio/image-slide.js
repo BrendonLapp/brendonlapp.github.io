@@ -12,7 +12,7 @@ const ImageSlide = ({ url, nextSlide, previousSlide }) => {
         ></div>
       </div>
 
-      <img src={url} alt={'Carousel image'} width="100%" height="225" />
+      <img src={url} alt={'Carousel'} width="100%" height="225" />
     </>
   );
 };
