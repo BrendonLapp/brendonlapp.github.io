@@ -61,6 +61,10 @@ header.masthead .h1 {
   transform: scale(2.15);
 }
 
+.textHover:hover {
+  color: #10b6f8;
+}
+
 @media (max-width: 992px) {
   header.masthead {
     height: 100vh;

@@ -4,28 +4,38 @@ import database from '../firebaseConfig';
 
 const Portfolio = () => {
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(false);
   useEffect(async () => {
     try {
-      const ref = database.collection('portfolio');
-      const docs = await ref.get();
-      let allData = [];
-      docs.forEach((doc) => {
-        const data = doc.data();
-        allData.push(data);
-      });
-      setData(allData);
+      if (loading !== true) {
+        const ref = database.collection('portfolio');
+        const docs = await ref.get();
+        let allData = [];
+        docs.forEach((doc) => {
+          const data = doc.data();
+          allData.push(data);
+        });
+        console.log(allData);
+        setData(allData);
+        setLoading(true);
+      }
     } catch (error) {
       console.log('error', error);
     }
-  }, [data]);
+  }, [data, loading]);
   return (
-    <div className="album py-5 bg-light">
+    <div className="album py-5">
       <div className="container" style={{ paddingTop: '2%' }}>
         <div className="row">
           {data &&
             data.length > 0 &&
             data.map((item) => (
-              <Card key={item.Name} name={item.Name} images={item.Images} />
+              <Card
+                key={item.Name}
+                name={item.Name}
+                images={item.Images}
+                link={item.Link}
+              />
             ))}
         </div>
       </div>
