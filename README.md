@@ -1,3 +1,18 @@
+# Portfolio Website
+
+This is my portfolio website that is hosted on [GitHub pages](https://brendonlapp.github.io/). This project was built to expand upon my knowledge of React as well as to create a place for me to display the different projects I have worked on.
+
+## Tech Used
+
+- React JS
+- JavaScript
+- Firebase
+- EmailJS
+- Bootstrap
+- GitHub Pages
+
+## To Run the Project
+
 ### `yarn start`
 
 Runs the app in the development mode.\
