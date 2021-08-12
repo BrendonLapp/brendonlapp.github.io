@@ -1,7 +1,7 @@
-const SuccessButton = ({ message }) => {
+const SuccessButton = ({ message, onClick }) => {
   return (
     <>
-      <button type="button" class="btn btn-success">
+      <button onClick={onClick} className="btn btn-success">
         {message}
       </button>
     </>

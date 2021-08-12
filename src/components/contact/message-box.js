@@ -1,4 +1,8 @@
-const MessageBox = ({}) => {
+const MessageBox = ({ setValue }) => {
+  const handleOnChange = (event) => {
+    setValue(event);
+  };
+
   return (
     <div className="mb-3">
       <label for={'message'}>
@@ -12,6 +16,7 @@ const MessageBox = ({}) => {
         rows="10"
         maxLength="1000"
         style={{ resize: 'none' }}
+        onChange={(event) => handleOnChange(event.target.value)}
       />
     </div>
   );
