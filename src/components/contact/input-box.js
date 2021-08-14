@@ -5,7 +5,7 @@ const InputBox = ({ name, id, placeholder, type, setValue }) => {
 
   return (
     <div className="mb-3">
-      <label for="email">
+      <label htmlFor="email">
         {name} <span className="text-muted"></span>
       </label>
       <input

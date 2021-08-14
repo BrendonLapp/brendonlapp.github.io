@@ -8,7 +8,7 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState();
   const [message, setMessage] = useState();
-  const [isNotSent, setIsNotSent] = useState(true);
+  const [isNotSent, setIsNotSent] = useState(null);
   const [isSent, setIsSent] = useState(false);
 
   const isValidEmail = (email) => {

@@ -3,11 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 const Card = ({ images, name, link }) => {
-  console.log(link);
   return (
     <div className="col-md-4">
       <div className="card mb-4 shadow-sm">
-        <a href="#" className="cardHover" style={{ textAlign: 'center' }}>
+        <div
+          unselectable="on"
+          className="cardHover"
+          style={{ textAlign: 'center', cursor: 'pointer' }}
+        >
           <ImageCarousel images={images} />
           <a
             href={link}
@@ -21,7 +24,7 @@ const Card = ({ images, name, link }) => {
               </p>
             </div>
           </a>
-        </a>
+        </div>
       </div>
     </div>
   );

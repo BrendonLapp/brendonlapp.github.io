@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Brendon Lapp
         </a>
         <button

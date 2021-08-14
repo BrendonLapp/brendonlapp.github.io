@@ -15,7 +15,6 @@ const Portfolio = () => {
           const data = doc.data();
           allData.push(data);
         });
-        console.log(allData);
         setData(allData);
         setLoading(true);
       }

@@ -5,7 +5,7 @@ const MessageBox = ({ setValue }) => {
 
   return (
     <div className="mb-3">
-      <label for={'message'}>
+      <label htmlFor={'message'}>
         Message <span className="text-muted"></span>
       </label>
       <textarea
