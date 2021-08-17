@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 
-const NavItem = ({ link, name }) => {
+const NavItem = ({ link, name, setVisibility }) => {
+  const toggleVisibility = () => {
+    setVisibility();
+  };
+
   return (
-    <li className="nav-item">
+    <li className="nav-item" onClick={() => toggleVisibility()}>
       <Link className="nav-link active" to={link}>
         {name}
       </Link>
