@@ -15,7 +15,7 @@ const ImageSlide = ({ url, nextSlide, previousSlide }) => {
       <img
         src={url}
         alt={'Carousel'}
-        width="auto"
+        width="100%"
         height="225"
         style={{ justifyContent: 'center', alignItems: 'center' }}
       />
