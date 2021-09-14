@@ -4,7 +4,6 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,4 +11,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-reportWebVitals();

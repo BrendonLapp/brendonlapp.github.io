@@ -17,7 +17,7 @@ const AboutMePanel = () => {
             and React. In the future, I want to continue to expand my skillset
             and take on new challenges. I know I am someone that has what it
             takes to be a valuable teamplayer and create quality software. I
-            hope you take interst in some of the projects I have worked
+            hope you take interst in some of the projects I have worked on
             previously.
           </div>
         </div>
