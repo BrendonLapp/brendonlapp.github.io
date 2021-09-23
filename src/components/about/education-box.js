@@ -5,7 +5,11 @@ const EducationBox = ({ name, link }) => {
     <div>
       {name}
       <a href={link}>
-        <img src={NAITLogo} style={{ width: '2rem', paddingLeft: '1rem' }} />
+        <img
+          src={NAITLogo}
+          alt="NAIT Logo"
+          style={{ width: '2rem', paddingLeft: '1rem' }}
+        />
       </a>
     </div>
   );

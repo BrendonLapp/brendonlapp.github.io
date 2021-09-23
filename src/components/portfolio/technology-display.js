@@ -107,6 +107,10 @@ const TechnologyDisplay = ({ tech }) => {
     case 'Swift': {
       return <KnowledgeItem name={'Swift'} Icon={FaSwift} color="#FD6731" />;
     }
+
+    default: {
+      return <div></div>;
+    }
   }
 };
 

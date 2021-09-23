@@ -6,7 +6,7 @@ const ImageCarousel = ({ images }) => {
   const [currentImage, setCurrentImage] = useState();
   useEffect(() => {
     setCurrentImage(images[current]);
-  });
+  }, [images, current]);
 
   const nextSlide = () => {
     if (images.length !== current + 1) {
