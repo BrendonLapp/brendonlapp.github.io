@@ -10,7 +10,7 @@ import Contact from './components/contact';
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="wrapper">
         <NavBar />
         <Switch>
           <Route exact path="/">
@@ -26,8 +26,9 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
-        <Footer />
+        <div className="push"></div>
       </div>
+      <Footer />
     </Router>
   );
 };

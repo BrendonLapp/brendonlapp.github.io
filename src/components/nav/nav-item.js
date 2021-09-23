@@ -6,7 +6,7 @@ const NavItem = ({ link, name, setVisibility }) => {
   };
 
   return (
-    <li className="nav-item" onClick={() => toggleVisibility()}>
+    <li className="nav-item indent" onClick={() => toggleVisibility()}>
       <Link className="nav-link active" to={link}>
         {name}
       </Link>

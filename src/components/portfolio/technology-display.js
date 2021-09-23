@@ -9,6 +9,7 @@ import {
   SiVisualstudiocode,
   SiCsswizardry,
   SiFirebase,
+  SiBootstrap,
 } from 'react-icons/si';
 import { DiDotnet, DiJava, DiAndroid } from 'react-icons/di';
 import { FaReact, FaGitAlt, FaHtml5, FaSwift } from 'react-icons/fa';
@@ -72,6 +73,11 @@ const TechnologyDisplay = ({ tech }) => {
     case 'MongoDB': {
       return (
         <KnowledgeItem name={'MongoDB'} Icon={SiMongodb} color="#419D3A" />
+      );
+    }
+    case 'Bootstrap': {
+      return (
+        <KnowledgeItem name={'Bootstrap'} Icon={SiBootstrap} color="#7952b3" />
       );
     }
     case 'CSS': {

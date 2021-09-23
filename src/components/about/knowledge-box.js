@@ -9,13 +9,14 @@ import {
   SiVisualstudiocode,
   SiCsswizardry,
   SiFirebase,
+  SiBootstrap,
 } from 'react-icons/si';
 import { DiDotnet, DiJava, DiAndroid } from 'react-icons/di';
 import { FaReact, FaGitAlt, FaHtml5, FaSwift } from 'react-icons/fa';
 
 const KnowledgeBox = () => {
   return (
-    <div className="">
+    <div>
       <KnowledgeItem name={'C#'} Icon={SiCsharp} color="#661F76" />
       <KnowledgeItem name={'ASP.NET'} Icon={DiDotnet} color="#0B89D1" />
       <KnowledgeItem
@@ -37,6 +38,7 @@ const KnowledgeBox = () => {
       <KnowledgeItem name={'TypeScript'} Icon={SiTypescript} color="#3178C6" />
       <KnowledgeItem name={'JavaScript'} Icon={SiJavascript} color="#F0DB4F" />
       <KnowledgeItem name={'MongoDB'} Icon={SiMongodb} color="#419D3A" />
+      <KnowledgeItem name={'Bootstrap'} Icon={SiBootstrap} color="#7952b3" />
       <KnowledgeItem name={'CSS'} Icon={SiCsswizardry} color="#264DE4" />
       <KnowledgeItem name={'HTML'} Icon={FaHtml5} color="#E44D26" />
       <KnowledgeItem name={'Git'} Icon={FaGitAlt} color="#F05030" />
