@@ -33,7 +33,7 @@ const KnowledgeBox = () => {
         Icon={SiVisualstudiocode}
         color="#2C83BA"
       />
-      <KnowledgeItem name={'React'} Icon={FaReact} color="#61DBFB" />
+      <KnowledgeItem name={'React.JS'} Icon={FaReact} color="#61DBFB" />
       <KnowledgeItem name={'TypeScript'} Icon={SiTypescript} color="#3178C6" />
       <KnowledgeItem name={'JavaScript'} Icon={SiJavascript} color="#F0DB4F" />
       <KnowledgeItem name={'MongoDB'} Icon={SiMongodb} color="#419D3A" />

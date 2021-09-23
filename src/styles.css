@@ -38,6 +38,7 @@ header.masthead .h1 {
   padding: 32px 24px;
   text-decoration: none;
   z-index: 0;
+  height: 100%;
 }
 
 .cardHover:hover {
@@ -104,4 +105,12 @@ header.masthead .h1 {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.card-height {
+  height: 95%;
 }

@@ -34,6 +34,7 @@ const Portfolio = () => {
                 name={item.Name}
                 images={item.Images}
                 link={item.Link}
+                techs={item.Technology}
               />
             ))}
         </div>
