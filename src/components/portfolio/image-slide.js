@@ -1,15 +1,21 @@
+import { AiFillCaretLeft, AiFillCaretRight } from 'react-icons/ai';
+
 const ImageSlide = ({ url, nextSlide, previousSlide }) => {
   return (
-    <>
+    <div>
       <div>
         <div
           className={'carousel-button button-left'}
           onClick={() => previousSlide()}
-        ></div>
+        >
+          <AiFillCaretLeft className="arrow arrow-left" />
+        </div>
         <div
           className={'carousel-button button-right'}
           onClick={() => nextSlide()}
-        ></div>
+        >
+          <AiFillCaretRight className="arrow arrow-right" />
+        </div>
       </div>
 
       <img
@@ -19,7 +25,7 @@ const ImageSlide = ({ url, nextSlide, previousSlide }) => {
         height="225"
         style={{ justifyContent: 'center', alignItems: 'center' }}
       />
-    </>
+    </div>
   );
 };
 

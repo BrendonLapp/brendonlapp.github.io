@@ -124,3 +124,18 @@ header.masthead .h1 {
 .indent {
   padding-left: 1%;
 }
+
+.arrow {
+  top: 45%;
+  position: absolute;
+  font-size: 3rem;
+  color: #8c8c8c;
+}
+
+.arrow-left {
+  left: 15%;
+}
+
+.arrow-right {
+  right: 15%;
+}
