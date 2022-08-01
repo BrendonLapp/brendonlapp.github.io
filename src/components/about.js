@@ -34,7 +34,7 @@ const About = () => {
                     </h6>
                     <EducationBox
                       name={
-                        'Bachelor of Applied Information Systems Technology - Information Systems - Expected Graduation April 2022'
+                        'Bachelor of Applied Information Systems Technology - Information Systems — Graduated April 2022'
                       }
                       link={
                         'https://www.nait.ca/programs/baist-information-systems?term=2021-fall'
@@ -42,7 +42,7 @@ const About = () => {
                     />
                     <EducationBox
                       name={
-                        'Digital Media and IT Computer Software Development - Graduated April 2019'
+                        'Digital Media and IT - Computer Software Development — Graduated April 2019'
                       }
                       link={
                         'https://www.nait.ca/programs/dmit-computer-software-development?term=2021-fall'

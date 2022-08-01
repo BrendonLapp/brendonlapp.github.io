@@ -1,3 +1,6 @@
+import { Route } from 'react-router-dom';
+import Portfolio from '../portfolio';
+
 const AboutMePanel = () => {
   return (
     <div className="card mb-3">
@@ -7,18 +10,18 @@ const AboutMePanel = () => {
             <h6 className="mb-0 text-secondary">About</h6>
           </div>
           <div>
-            Hi, I’m Brendon Lapp and I am pursuing a bachelor’s degree in the
-            BAIST program in the Information Systems major at NAIT. I also
-            possess a diploma from the DMIT program specializing in computer
-            software development. In these programs, I have honed my skills at
-            building software in the Microsoft technology stack and on mobile
-            platforms. I have been gained valuable experience at Neo Financial
-            where I have improved my skills at working with TypeScript, MongoDB,
-            and React. In the future, I want to continue to expand my skillset
-            and take on new challenges. I know I am someone that has what it
-            takes to be a valuable teamplayer and create quality software. I
-            hope you take interst in some of the projects I have worked on
-            previously.
+            Hi, I’m Brendon Lapp and I am a Software Developer at LawDepot where
+            I have been working since October 2021. While at LawDepot I have
+            been working with C#, Microsoft SQL, TypeScript, and Vue JS to
+            create internal tools and maintain the live website. I have excelled
+            at working with these technologies and expanding upon my knowledge
+            in the software development world. Previously, I have worked at Neo
+            Financial where I used MongoDB, TypeScript, and React JS to create
+            internal tools for the developers to use. At NAIT I learned the
+            foundations for software development with C#, Microsoft SQL and the
+            development for websites and the mobile world. I hope that you take
+            interest in some of the projects I have worked on in my{' '}
+            <a href="/portfolio">portfolio</a>.
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import MyImage from '../../images/Brendon.jpg';
+import LawDepot from '../../images/LawDepot.jpg';
 
 const MyInfoPanel = () => {
   return (
@@ -12,7 +13,16 @@ const MyInfoPanel = () => {
         />
         <div className="mt-3">
           <h4>Brendon Lapp</h4>
-          <p className="text-secondary mb-1">Software Developer</p>
+          <p className="text-secondary mb-1">
+            Software Developer at{' '}
+            <img
+              src={LawDepot}
+              alt="LawDepot logo"
+              className="rounded-circle"
+              width="30"
+            />
+            LawDepot
+          </p>
           <p className="text-muted font-size-sm">Edmonton, Alberta, Canada</p>
           <a href="/Contact" className="btn btn-outline-primary">
             Contact

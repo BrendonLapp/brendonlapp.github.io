@@ -12,7 +12,7 @@ import {
   SiBootstrap,
 } from 'react-icons/si';
 import { DiDotnet, DiJava, DiAndroid } from 'react-icons/di';
-import { FaReact, FaGitAlt, FaHtml5, FaSwift } from 'react-icons/fa';
+import { FaReact, FaGitAlt, FaHtml5, FaSwift, FaVuejs } from 'react-icons/fa';
 
 const KnowledgeBox = () => {
   return (
@@ -35,6 +35,7 @@ const KnowledgeBox = () => {
         color="#2C83BA"
       />
       <KnowledgeItem name={'React.JS'} Icon={FaReact} color="#61DBFB" />
+      <KnowledgeItem name={'Vue.JS'} Icon={FaVuejs} color="#41B883" />
       <KnowledgeItem name={'TypeScript'} Icon={SiTypescript} color="#3178C6" />
       <KnowledgeItem name={'JavaScript'} Icon={SiJavascript} color="#F0DB4F" />
       <KnowledgeItem name={'MongoDB'} Icon={SiMongodb} color="#419D3A" />
